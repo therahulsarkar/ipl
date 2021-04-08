@@ -1,0 +1,500 @@
+
+.table{
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background: url("./img/bg4.jpg");
+    background-size: contain;
+    padding: 10px;
+    top: 5%;
+    margin: 0px auto;
+    
+   
+}
+
+
+
+.mySlides {
+    display:flex;
+    position: relative;
+    width: 95%;
+    top: 5%;
+}
+
+.table button{
+    z-index: 100;
+    border-radius: 50%;
+}
+
+.table .tb2 .tb3 .tb4{
+    height: 100px;
+}
+.table img{
+    position: relative;
+    
+    height: 200px;
+    width: 98%;
+    z-index: 50;
+    left: 1%;
+    border-radius: 10px;
+    top: 5%;
+}
+/* ----------kkr-------------- */
+
+.kkr{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* background: linear-gradient(to right, , ); */
+    background-image: linear-gradient(-225deg, #5b00ca 0%, #5b00ca 48%, #4b134f 100%);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;   
+}
+.kkr h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 8%;
+    position: relative;
+    top: 8%;
+}
+#bgkkr img{
+    position: absolute;
+    width: 30%;
+    height: 85%;
+    opacity: 0.8;
+    float: left;
+    left: 63%;
+    top: 13%;
+    z-index: 49;
+}
+
+.kkr ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: left;
+    z-index: 500;
+    top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0.1em;
+}
+
+
+.kkr img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 60%;
+    top: 23%;
+    border-radius: 10px;
+    
+}
+
+/* -----------csk-------------- */
+.csk{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to left, #dda200, #eeff00);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;  
+}
+.csk img{
+    position: absolute;
+    display: flex;
+    height: 155px;
+    width: 156px;
+    z-index: 50;
+    left: 5%;
+    top: 22%;
+    border-radius: 10px;
+    
+}
+
+.csk h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fFF;
+    left: 50%;
+    position: relative;
+    top: 10%;
+}
+#bgcsk img{
+    position: absolute;
+    width: 45%;
+    height: 85%;
+    opacity: 0.7;
+   float: left;
+   left: 1%;
+   top: 15%;
+   z-index: 49;
+}
+
+.csk ul li{
+    width: 34%;
+    color: #FFF;
+    position: relative;
+    float: right;
+    z-index: 500;
+    padding-top: 40%;
+    left: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0.1em;
+}
+
+/* -------rcb-------- */
+.rcb{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #aa1202, #1f1c18);
+    
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;
+    border: 2px solid rgb(224, 224, 224);
+}
+.rcb img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 60%;
+    top: 23%;
+    border-radius: 10px;  
+}
+.rcb h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 8%;
+    position: relative;
+    top: 8%;
+}
+#bgrcb img{
+    position: absolute;
+    width: 40%;
+    height: 85%;
+    opacity: 0.8;
+   float: left;
+   left: 59%;
+   top: 15%;
+   z-index: 49;
+}
+
+.rcb ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: left;
+    z-index: 500;
+    top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0.1em;
+}
+
+
+/* ----------mi--------- */
+.mi{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to left, #0575e6, #021b79);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;
+}
+.mi img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 5%;
+    top: 23%;
+    border-radius: 10px;  
+}
+.mi h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 40%;
+    position: relative;
+    top: 8%;
+}
+#bgmi img{
+    position: absolute;
+    width: 35%;
+    height: 96%;
+    opacity: 0.8;
+   float: left;
+   left: 6%;
+   top: 5%;
+   z-index: 49;
+}
+
+.mi ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: right;
+    z-index: 500;
+    top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    left: 16%;
+    padding: 0.1em;
+}
+
+
+/* --------srh--------- */
+.srh{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #fe8c00, #f83600);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;
+}
+.srh img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 60%;
+    top: 23%;
+    border-radius: 10px;  
+}
+.srh h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 3%;
+    position: relative;
+    top: 8%;
+}
+#bgsrh img{
+    position: absolute;
+    width: 40%;
+    height: 85%;
+    opacity: 0.8;
+   float: left;
+   left: 59%;
+   top: 12%;
+   z-index: 49;
+}
+
+.srh ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: left;
+    z-index: 500;
+    top: 15%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0.1em;
+    left: -5%;
+}
+
+
+/* -------dc-------- */
+.dc{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to left, #0089d8, #002da8);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;
+}
+.dc img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 5%;
+    top: 23%;
+    border-radius: 10px;  
+}
+.dc h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 44%;
+    position: relative;
+    top: 8%;
+}
+#bgdc img{
+    position: absolute;
+    width: 35%;
+    height: 85%;
+    opacity: 0.8;
+   float: left;
+   left: 5%;
+   top: 15%;
+   z-index: 49;
+}
+
+.dc ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: right;
+    z-index: 500;
+    top: 10%;
+    left: 18%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0.1em;
+}
+
+
+/* ---------rr---------- */
+.rr{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #d639aa, #021b79);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;
+    filter: drop-shadow(5px 5px 5px rgb(158, 158, 158));
+}
+.rr img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 60%;
+    top: 23%;
+     
+}
+.rr h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 8%;
+    position: relative;
+    top: 8%;
+}
+#bgrr img{
+    position: absolute;
+    width: 26%;
+    height: 75%;
+    opacity: 0.8;
+   float: left;
+   left: 66%;
+   top: 15%;
+   z-index: 49;
+}
+
+.rr ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: left;
+    z-index: 500;
+    top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0.1em;
+}
+
+
+/* ----------k11p----------- */
+.k11p{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to left, #ff0084, #33001b);
+    border: 2px solid rgb(224, 224, 224);
+    padding: 10px;
+    top: 0%;
+    margin: 0px auto;
+}
+.k11p img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 156px;
+    z-index: 50;
+    left: 5%;
+    top: 23%;
+    border-radius: 10px;  
+}
+.k11p h1{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0em;
+    font-size: 20PX;
+    color: #fff;
+    left: 44%;
+    position: relative;
+    top: 8%;
+}
+#bgk11p img{
+    position: absolute;
+    width: 33%;
+    height: 85%;
+    opacity: 0.8;
+   float: left;
+   left: 7.5%;
+   top: 18%;
+   z-index: 49;
+}
+
+.k11p ul li{
+    width: 40%;
+    color: #fff;
+    position: relative;
+    float: right;
+    z-index: 500;
+    top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 10px;
+    margin: 0;
+    left: 18%;
+    padding: 0.1em;
+}
+

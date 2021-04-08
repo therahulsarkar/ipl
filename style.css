@@ -1,0 +1,493 @@
+
+
+html, body{
+    background-color:#fff;
+    font-family: 'Teko', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0px !important;
+    padding: 0px !important ;
+}
+
+*{
+    text-decoration: none !important;
+    }
+	
+@media only screen and (min-width: 600px ){
+	body{
+	display:none;
+	}
+}
+
+
+.nav {
+        position: fixed;
+        z-index: 2000;
+        top: 0px;
+        right: 0;
+        left: 0;
+        height: 60px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 3px 5px rgba(25, 104, 223, 0.5);
+        padding: 0 25px 0 25px;
+        background-color:  #fff; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+}
+
+
+.logo img{
+    position: relative;
+    width: 65px;
+    opacity: 1;
+    display: flex;
+    left: 30vw;
+    justify-content: center;
+    text-align: center;
+    top: 0px;
+}
+
+.part1{
+  
+    position: relative;
+    padding: 0%;
+    margin: 0px auto;
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 300px;
+    z-index: 200;
+}
+
+.banner{
+    display: flex;
+    position: relative;
+    padding: 0px;
+    margin: 0px auto;
+    width: 97%;
+    height:31.5vh;
+    top: 45px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.banner img{
+    position: relative;
+    padding: 1px;
+    padding-top: 2px;
+    scroll-padding-right: 2px;
+    width: 100%;
+    padding-bottom: 0px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+
+/* ------------------teams------------------*/
+
+.teams{
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px auto;
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    background: url("./img/bg3.jpg");
+    background-size: cover;
+   
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.teams h1{
+    position: absolute;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    left: 45%;
+    top: 0%;
+}
+
+.team1 {
+    cursor: pointer;
+    position: relative;
+    width: 40%;
+    top: 5%;
+    height: 150px;
+    left: 6%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-color: #fff;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.009);
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+}
+
+ .team1:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team1 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 15%;
+    top: 0%;
+}
+.team1 img {
+    position: relative;
+    display: flex;
+    height: 110px;
+    width: 80px;
+    z-index: 50;
+    left: 21%;
+    top: 6%;
+}
+
+.team2 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    height: 150px;
+    left: 54%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team2:hover{
+    transform: translateY(-4px);
+    transition: 0.4s;
+    
+}
+
+.team2 img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 90px;
+    z-index: 50;
+    left: 20%;
+    top: 10%;
+    
+}
+.team2 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 25%;
+    top: 6%;
+}
+
+
+.team3 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 23%;
+    height: 150px;
+    left: 6%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-color: #fff;
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team3:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team3 img {
+    position: relative;
+    display: flex;
+    height: 90px;
+    width: 110px;
+    z-index: 50;
+    left: 13%;
+    top: 12%;
+    
+}
+.team3 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 15%;
+    top: 10%;
+}
+
+.team4 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 23%;
+    height: 150px;
+    left: 54%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team4:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team4 img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 115px;
+    z-index: 50;
+    left: 10%;
+    top: 10%;
+    
+}
+
+.team4 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 15%;
+    top: 4%;
+}
+.team5 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 41%;
+    height: 150px;
+    left: 6%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team5:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team5 img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    z-index: 50;
+    left: 17%;
+    top: 10%;
+    
+}
+.team5 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 2%;
+    top: 6%;
+}
+
+.team6 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 41%;
+    height: 150px;
+    left: 55%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team6:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team6 img {
+    position: relative;
+    display: flex;
+    height: 110px;
+    width: 90px;
+    z-index: 50;
+    left: 20%;
+    top: 10%;
+    
+}
+.team6 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 22%;
+    top: 0%;
+}
+.team7 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 59%;
+    height: 150px;
+    left: 6%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team7:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team7 img {
+    position: relative;
+    display: flex;
+    height: 90px;
+    width: 75px;
+    z-index: 50;
+    left: 25%;
+    top: 10%;
+    
+}
+
+.team7 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 20%;
+    top: 10%;
+}
+.team8 {
+    cursor: pointer;
+    position: absolute;
+    width: 40%;
+    top: 59%;
+    height: 150px;
+    left: 54%;
+    overflow: hidden;
+    border-radius: 10%;
+    background-image: linear-gradient(to top right, #fff 0%, #fff 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team8:hover{
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.team8 img {
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 90px;
+    z-index: 50;
+    left: 20%;
+    top: 10%;
+    
+}
+.team8 h1{
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #949494;
+    left: 22%;
+    top: 6%;
+}
+.team9 {
+    cursor: pointer;
+    position: absolute;
+    width: 90%;
+    top: 76%;
+    height: 240px;
+    left: 4%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-image: linear-gradient(-20deg, #e61531 0%, #e0883a 100%);
+    opacity: 1;
+    box-shadow:  0 12px 38px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.05);
+}
+.team9 img {
+    position: absolute;
+    display: flex;
+    height: 130px;
+    width: 160px;
+    z-index: 50;
+    left: 50%;
+    top: 28%;
+    border-radius: 10px;
+    
+}
+.team9 h1{
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    left: 15%;
+    top: 6%;
+    font-weight: 800;
+  
+}
+
+.playstore{
+    position: absolute;
+    margin: 0px auto;
+    padding: 0px;
+    top: 30%;
+    left: 10%;
+}
+
+.playstore img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 110px;
+    z-index: 50;
+    left: 10%;
+    top: 35%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px rgb(179, 0, 0)); 
+}
+
+.playstore img:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.appstore{
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+    top: 35%;
+}
+
+.appstore img{
+    position: absolute;
+    display: flex;
+    height: 64px;
+    width: 125px;
+    z-index: 50;
+    left: 8%;
+    top: 32%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px rgb(179, 0, 0)); 
+}
+
+.appstore img:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
